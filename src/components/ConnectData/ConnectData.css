@@ -1,0 +1,185 @@
+.connect-data-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 4vw;
+  }
+  
+  .left-section {
+    width: 40%;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center; /* Vertically align items */
+    padding: 10px; /* Optional padding for spacing */
+  }
+  
+  
+
+  
+  /* .close-button {
+    
+    cursor: pointer;
+    font-size: 13px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid blue;
+  } */
+
+  .close-button {
+    color: blue;
+    cursor: pointer;
+    font-size: 13px;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid blue;
+    background: none; /* Remove background for a cleaner look */
+    margin-left: auto; /* Pushes the button to the right if parent uses flex */
+    padding: 5px 10px;
+    display: inline-block; /* Ensures proper alignment */
+  }
+
+  
+  .search-bar {
+    margin: 15px 0;
+    position: relative;
+    width: 90%;
+  }
+  
+  .search-input {
+    width: 94%;
+    padding: 8px;
+    padding-left: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    padding: 2px;
+  }
+  
+  .selected-data-sources {
+    margin-top: 20px;
+  }
+  
+  .data-source-card {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+  }
+  
+  .data-source-img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+
+  .data-source-card, h4{
+    padding-right: 20px;
+    align-items: self-start;
+
+  }
+  
+  
+  /* .connect-button {
+    
+    background-color: lightgray; 
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; 
+  } */
+
+  .connect-button {
+    background-color: lightgray; /* Default background color */
+    color: black; /* Default text color */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth transition for color change */
+    margin-left: auto; /* Pushes the button to the right if parent has display: flex */
+    display: inline-block; /* Ensures proper alignment */
+  }
+  
+  
+  
+  .connect-button.Connected {
+    background-color: rgb(87, 214, 87); /* Green for "Connected" */
+    
+  }
+  
+  .connect-button:disabled {
+    background-color: lightgray; /* Disabled state */
+    cursor: not-allowed; /* Prevent clicking when already connected */
+  }
+  
+  
+
+  
+  
+ 
+  
+  .right-section {
+    width: 55%;
+    padding: 10px;
+  }
+  
+  .database-types {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .database-img {
+    width: 500px;
+    height: 400px;
+    
+    border-radius: 6px;
+  }
+
+  .right-section {
+    width: 100%;
+    
+    
+
+  }
+
+  .database-types{
+    width: 50vw;
+    height: 7vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .database-types, img {
+    width: 100%;
+    height: 70%;
+
+  }
+  .right-section, h2, h3 {
+    color: rgb(183, 181, 181);
+  }
+
+
+  
