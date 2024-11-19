@@ -1,4 +1,4 @@
-/* Body container */
+
 .main-body-container{
     width: 100%;
     display: flex;
@@ -14,13 +14,12 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
-  /* Content header */
+  
   .content h1 {
     font-size: 2rem;
     color: #333;
   }
   
-  /* Search Section */
   .search-section {
     margin-top: 20px;
   }
@@ -42,29 +41,21 @@
     font-size: 1rem;
     border-radius: 5px;
     border: 1px solid #ccc;
-    padding-right: 15px; /* Add padding to make space for the icon */
+    padding-right: 15px; 
     padding-left: 10px;
   }
   
-  /* .search-icon {
-    position: absolute;
-    right: 10px; 
-    top: 50%; 
-    transform: translateY(-50%);
-    font-size: 1.5rem;
-    color: #b9bbbd;
-    pointer-events: none; 
-  } */
+  
 
   .search-icon {
-    position: absolute; /* Position the icon relative to the parent */
-    right: 0; /* Push the icon to the rightmost edge */
-    top: 50%; /* Vertically center the icon */
-    transform: translateY(-50%); /* Correct vertical alignment */
-    font-size: 1.5rem; /* Adjust icon size */
-    color: #b9bbbd; /* Icon color */
-    pointer-events: none; /* Prevent interaction */
-    padding-right: 50px; /* Add space from the edge */
+    position: absolute;
+    right: 0; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    font-size: 1.5rem;
+    color: #b9bbbd; 
+    pointer-events: none; 
+    padding-right: 50px; 
   }
   
 
@@ -122,11 +113,11 @@
 }
 .left-align {
     text-align: left;
-    margin: 0; /* Remove default margin */
-    padding-left: 10px; /* Add some padding for spacing */
+    margin: 0; 
+    padding-left: 10px; 
   }
   
-  /* Optional: Additional styling for spacing */
+  
   .top-pickups h2 {
     font-size: 24px;
     font-weight: bold;
@@ -214,11 +205,7 @@
     margin-top: 20px;
 }
 
-/* .selected-data-container, h4{
-    text-align: start;
-    padding-left: 0.5vw;
 
-} */
 
   
   .selected-cards {

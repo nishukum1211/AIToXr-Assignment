@@ -11,7 +11,6 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          {/* Define the routes */}
           <Route path="/" element={<Body />} />
           <Route path="/ConnectData" element={<ConnectData />} />
         </Routes>

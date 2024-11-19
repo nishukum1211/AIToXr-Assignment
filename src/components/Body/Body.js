@@ -4,18 +4,18 @@ import React, { useState } from "react";
 import { FaSearch, FaChevronDown, FaChevronUp, FaTimes } from "react-icons/fa";
 import "./Body.css";
 import { useNavigate } from "react-router-dom";
-//import img1 from "../../../public/assets/Frame 10.svg";
+
 
 const Body = () => {
 
   const navigate = useNavigate();
 
   
-  // State for selected data sources
+
   const [selectedDataSources, setSelectedDataSources] = useState([]);
   const [isAnalyticsOpen, setIsAnalyticsOpen] = useState(false);
 
-  // Sample dataSources array
+  
   const dataSources = [
     { id: 1, name: "Salesforce", img: "/assets/image 17.svg"  },
     { id: 2, name: "Shopify", img: "/assets/image 19.svg"},
@@ -41,12 +41,12 @@ const Body = () => {
    
   ];
 
-  // Toggle the section visibility
+  
   const toggleAnalytics = () => {
     setIsAnalyticsOpen(!isAnalyticsOpen);
   };
 
-  // Select a data source
+  
   const handleSelect = (source) => {
     if (!selectedDataSources.find((item) => item.id === source.id)) {
       setSelectedDataSources([...selectedDataSources, source]);
@@ -112,7 +112,7 @@ const Body = () => {
         </div>
       </div>
 
-      {/* Main Cards Section */}
+      
       <div className="body-container1">
         <div className="top-pickups">
           <h1 className="left-align">Top Pickups of Data Sources</h1>
@@ -162,7 +162,7 @@ const Body = () => {
     </p>
   )}
 
-  {/* Inline Container for Progress Bar and Next Button */}
+  
   <div className="progress-bar-container">
     {/* Progress Bar */}
     <div className="progress-bar">
@@ -172,7 +172,7 @@ const Body = () => {
       ></div>
     </div>
 
-    {/* Next Button */}
+    
     <button
       className="next-button"
       disabled={selectedDataSources.length < 4}
